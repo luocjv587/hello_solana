@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 钱包按钮样式 */
+.wallet-adapter-button {
+  @apply bg-solana-purple hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition-colors;
+}
+
+.wallet-adapter-button-trigger {
+  @apply bg-solana-purple hover:bg-purple-700;
+}
+
+.wallet-adapter-modal-container {
+  @apply bg-gray-900;
+}
+
+.wallet-adapter-modal-wrapper {
+  @apply bg-white rounded-lg;
+}
+
+/* 自定义样式 */
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 border border-gray-200;
+}
+
+.btn-primary {
+  @apply bg-solana-purple hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded transition-colors;
+}
+
+.input-field {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-solana-purple focus:border-transparent;
+} 
